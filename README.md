@@ -19,4 +19,10 @@ In order for this to work the Agent needs a RaycastSensor3D object attached to i
 
 Not yet implemented.
 
-## 
+## rewardFromCloser.yaml
+
+the configuration file for the NN used in the training process. controls the amount of layers and neurons in each layer as well as the epsilon, beta and gamma values. 
+
+
+## CURRENTLY NOT EXHIBITING THE CORRECT BEHAVIOUR
+the model is not yet able to train a behaviour that is aligned with my vision. it will need to decrease the entropy and also converging would be nice...
